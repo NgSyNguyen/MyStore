@@ -19,6 +19,7 @@ import ProductReviews from '@pages/admin/ProductReviews';
 import ProductList from '@/pages/user/ProductList';
 import AddCategory from '@/pages/admin/AddCategory';
 import ProductDetails from '@/pages/user/ProductDetails';
+import Blog from '@/pages/user/Blog';
 
 const routes = [
   { path: '/', page: Home },
@@ -32,6 +33,8 @@ const routes = [
   { path: '/wishlist', page: Wishlist },
   { path: '/product', page: ProductList },
   { path: '/product/:id', page: ProductDetails },
+  { path: '/blog', page: Blog },
+  { path: '/blog/:id', page: Blog },
   {
     path: '/admin',
     page: AdminLayout,
